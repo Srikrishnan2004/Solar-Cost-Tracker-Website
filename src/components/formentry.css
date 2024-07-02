@@ -1,0 +1,83 @@
+.App {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  overflow-y: auto; /* Allow the content to scroll vertically */
+  max-height: 75vh; /* Set maximum height to viewport height */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://etimg.etb2bimg.com/photo/105752021.cms');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin: 0; /* Remove default margin */
+  max-height: 100vh; /* Set full height of viewport */
+  overflow: hidden; /* Prevent background image from scrolling */
+}
+
+.form-container {
+  flex: 0.5;
+  padding-left: 30%;
+  color: white; /* Example text color for form */
+}
+
+.right-side {
+  font-family: 'Poppins', sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: white; /* Example text color for right-side content */
+}
+
+.dropdown-container {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  margin: 10px 0 5px;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  background-color: lightblue;
+  padding: 10px 20px;
+  margin-bottom:10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.inputfile {
+  margin-left: 42%;
+}
+
+p{
+  color:white;
+  font-weight: bold;
+}
